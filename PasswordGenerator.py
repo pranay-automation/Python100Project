@@ -14,19 +14,19 @@ nr_symbols = int(input("How many symbols would you like?\n"))
 nr_number = int(input("How many numbers would you like?\n"))
 
 
-# #Easy Password Generator
-# password = ""
-#
-# for char in range(1, nr_letter + 1):
-#     password += random.choice(letters)
-#
-# for char in range(1, nr_symbols + 1):
-#     password += random.choice(numbers)
-#
-# for char in range(1, nr_number + 1):
-#     password += random.choice(symbols4)
-#
-# print(password)
+#Easy Password Generator
+password = ""
+
+for char in range(1, nr_letter + 1):
+    password += random.choice(letters)
+
+for char in range(1, nr_symbols + 1):
+    password += random.choice(numbers)
+
+for char in range(1, nr_number + 1):
+    password += random.choice(symbols4)
+
+print(password)
 
 # Hard password generator
 #Easy Password Generator
@@ -48,6 +48,5 @@ print(password_list)
 password = ""
 for char in password_list:
     password += char
-
 print(f"Your password is : {password}")
 
